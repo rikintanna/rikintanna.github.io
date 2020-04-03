@@ -1,0 +1,46 @@
+.main-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    flex-direction: column;
+}
+
+.intro-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro-item{
+    align-self:center;
+}
+.contact-me{
+    position:fixed;
+    top:2%;
+    right:2%;
+    z-index:99;
+}
+
+.skills-container{
+    width:90%;
+    display:grid;
+}
+
+.skills-table{
+    text-align:center;
+}
+
+.skills-title{
+    margin-left:2rem;
+}
+
+.links-container{
+    display:flex;
+    width: 30%;
+    justify-content:space-around;
+    align-self:center;
+}
+
+.links-item{
+    height:3rem;
+}
